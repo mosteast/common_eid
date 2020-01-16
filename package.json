@@ -1,0 +1,31 @@
+{
+  "name": "@mosteast/mosteast_eid",
+  "description": "Common error id for mosteast project (Only for internal usage).",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mosteast/mosteast_eid#readme",
+  "repository": "github:mosteast/mosteast_eid",
+  "files": [
+    "build/"
+  ],
+  "scripts": {
+    "test": "npx jest --coverage",
+    "build": "./bin/build",
+    "release": "npm publish --access public",
+    "build_and_release": "npm run build && cd build && npm run release"
+  },
+  "author": "Mosteast team",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/shelljs": "^0.8.6",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^11.15.3",
+    "fs-extra": "^8.1.0",
+    "jest": "^24.9.0",
+    "shelljs": "^0.8.3",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  }
+}
