@@ -1,9 +1,9 @@
 {
-  "name": "@mosteast/mosteast_eid",
+  "name": "@mosteast/common_eid",
   "description": "Common error id for mosteast project (Only for internal usage).",
   "version": "0.0.1",
-  "homepage": "https://github.com/mosteast/mosteast_eid#readme",
-  "repository": "github:mosteast/mosteast_eid",
+  "homepage": "https://github.com/mosteast/common_eid#readme",
+  "repository": "github:mosteast/common_eid",
   "files": [
     "build/"
   ],
