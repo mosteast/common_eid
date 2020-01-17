@@ -5,4 +5,5 @@ export enum E_eid_common {
 	lack_path         = 'E3',
 	lack_argument     = 'E4',
 	permission_denied = 'E5',
+	bad_connection    = 'E6',
 }
