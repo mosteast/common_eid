@@ -8,5 +8,5 @@ export enum E_eid_common {
 	permission_denied   = 'E05',
 	bad_connection      = 'E06',
 	invalid_state       = 'E07',
-	vinvalid_credential = 'E08',
+	invalid_credential = 'E08',
 }
