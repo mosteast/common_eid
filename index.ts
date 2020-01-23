@@ -1,10 +1,12 @@
 export enum E_eid_common {
-	base_error        = 'E0',
-	invalid_argument  = 'E1',
-	lack_config       = 'E2',
-	lack_path         = 'E3',
-	lack_argument     = 'E4',
-	permission_denied = 'E5',
-	bad_connection    = 'E6',
-	invalid_state     = 'E7',
+	// Common level error code starts with 'E0'
+	base_error          = 'E00',
+	invalid_argument    = 'E01',
+	lack_config         = 'E02',
+	lack_path           = 'E03',
+	lack_argument       = 'E04',
+	permission_denied   = 'E05',
+	bad_connection      = 'E06',
+	invalid_state       = 'E07',
+	vinvalid_credential = 'E08',
 }
