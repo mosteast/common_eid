@@ -8,15 +8,18 @@ export enum EID_common {
   // If new EID is needed just increment the code number.
   // !!!
 
-  // Common level error code starts with 'e0'
-  base_error         = 'e00',
-  invalid_argument   = 'e01',
-  lack_config        = 'e02',
-  lack_path          = 'e03',
-  lack_argument      = 'e04',
-  permission_denied  = 'e05',
-  bad_connection     = 'e06',
-  invalid_state      = 'e07',
-  invalid_credential = 'e08',
-  too_frequent       = 'e09',
+  // Common EID starts with string 'e0',
+  // custom app EID should start with string 'e'.
+
+  base_error            = 'e00',
+  invalid_argument      = 'e01',
+  lack_config           = 'e02',
+  lack_path             = 'e03',
+  lack_argument         = 'e04',
+  permission_denied     = 'e05',
+  bad_connection        = 'e06',
+  invalid_state         = 'e07',
+  invalid_credential    = 'e08',
+  too_frequent          = 'e09',
+  invalid_configuration = 'e010',
 }
