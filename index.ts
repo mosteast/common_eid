@@ -1,13 +1,22 @@
-export enum E_eid_common {
-	// Common level error code starts with 'E0'
-	base_error         = 'E00',
-	invalid_argument   = 'E01',
-	lack_config        = 'E02',
-	lack_path          = 'E03',
-	lack_argument      = 'E04',
-	permission_denied  = 'E05',
-	bad_connection     = 'E06',
-	invalid_state      = 'E07',
-	invalid_credential = 'E08',
-	too_frequent       = 'E09'
+export enum EID_common {
+  // !!!
+  // EID SHOULD NEVER BE CHANGED
+  //
+  // Once an EID is set and published we must never change it.
+  // For instance `base_error` should always be 'e00' and
+  // invalid_argument should always be 'e01'.
+  // If new EID is needed just increment the code number.
+  // !!!
+
+  // Common level error code starts with 'e0'
+  base_error         = 'e00',
+  invalid_argument   = 'e01',
+  lack_config        = 'e02',
+  lack_path          = 'e03',
+  lack_argument      = 'e04',
+  permission_denied  = 'e05',
+  bad_connection     = 'e06',
+  invalid_state      = 'e07',
+  invalid_credential = 'e08',
+  too_frequent       = 'e09',
 }
