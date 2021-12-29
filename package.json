@@ -1,9 +1,10 @@
 {
   "name": "@mosteast/common_eid",
   "description": "Common error id for mosteast project (Only for internal usage).",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/mosteast/common_eid#readme",
   "repository": "github:mosteast/common_eid",
+  "types": "./index.d.ts",
   "files": [
     "build/"
   ],
